@@ -1,0 +1,37 @@
+﻿haesteinn = {
+    category = lifestyle
+    icon = haesteinn_trait.dds
+    name = haesteinn
+
+    opposites = {
+        craven
+        disloyal
+    }
+    martial = 2
+    prowess = 1
+    dread = 80
+    same_opinion = 10
+    opposite_opinion=15
+
+    ruler_designer_cost = 80
+
+    desc = {
+        first_valid = {
+            triggered_disc = {
+                trigger = {
+                    NOT = { exists = this }
+                }
+                desc = trait_haesteinn_desc
+            }
+            desc = trait_haensteinn_character_desc
+        }
+    }
+
+    ai_boldness = dominant_positive_ai_value
+    
+    compatibility = {
+        brave = @pos_compat_medium
+        craven = @neg_compat_high
+        disloyal = @neg_compat_high
+    }
+}

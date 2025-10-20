@@ -1,0 +1,5 @@
+﻿l_english:
+#Haesteinn Traits
+  haesteinn:0 "Haesteinn"
+  trait_haesteinn_desc:0 "Haesteinn is utterly unique and nobody can argue that he was chosen by the Gods."
+  trait_haensteinn_character_desc:0 "[ROOT.GetCharacter.GetFirstNameNoTooltip] lives to crush his enemies!"
